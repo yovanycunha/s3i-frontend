@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+
+  .list {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    margin: auto;
+    padding: 0;
+
+    .listItem {
+      padding: 8px;
+
+      list-style-type: none;
+
+      .itemText {
+        color: #000;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 2.2rem;
+        text-decoration: none;
+      }
+    }
+  }
+}
