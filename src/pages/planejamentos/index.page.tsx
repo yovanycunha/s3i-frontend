@@ -1,13 +1,14 @@
+import Form from '@components/Form/Form';
 import Header from '@components/Header/Header';
 
 function Planejamentos() {
   return (
-    <>
+    <div>
       <Header />
-      <main>
-        <div />
-      </main>
-    </>
+      <section>
+        <Form />
+      </section>
+    </div>
   );
 }
 

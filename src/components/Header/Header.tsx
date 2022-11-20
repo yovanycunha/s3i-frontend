@@ -40,7 +40,7 @@ function Header() {
           </li>
         </ul>
 
-        {renderMobileBtn()}
+        {/* {renderMobileBtn()} */}
       </nav>
     </header>
   );

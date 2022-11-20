@@ -1,0 +1,12 @@
+.form {
+  width: min(100%, 450px);
+
+  display: flex;
+
+  flex-direction: column;
+  gap: 16px;
+
+  margin: auto;
+
+  padding: 12px 0;
+}

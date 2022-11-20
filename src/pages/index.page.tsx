@@ -8,8 +8,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Header />
-      <main>
-        <div className={style.container}>body</div>
+      <main className={style.main}>
+        <div className={style.container}>akskskkakska</div>
       </main>
     </>
   );
