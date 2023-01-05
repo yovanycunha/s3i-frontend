@@ -5,6 +5,14 @@
   ],
   "rules": {
     "scss/dollar-variable-pattern": "(^[a-z])[A-Za-z0-9]+$",
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind"
+        ]
+      }
+    ],
     "max-nesting-depth": 20,
     "property-no-unknown": [
       true,

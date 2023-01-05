@@ -26,7 +26,8 @@
     "prettier",
     "jsx-a11y",
     "import",
-    "eslint-plugin-import-helpers"
+    "eslint-plugin-import-helpers",
+    "tailwindcss"
   ],
   "rules": {
     "prettier/prettier": "error",

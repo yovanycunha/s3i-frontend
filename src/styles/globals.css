@@ -1,9 +1,9 @@
-@use 'colors.module.scss' as *;
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+@import url('../../node_modules/normalize.css/normalize.css');
 
 html,
 body {
